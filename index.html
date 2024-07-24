@@ -8,7 +8,7 @@
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header1">
         <img src="c:\FILES\PHOTO.jpg" alt="Profile Picture" class="img">
         <div class="logo-container">
             <h class="logo" id="l">NAGUL.J</h>
@@ -104,10 +104,10 @@
     <script>
         document.querySelectorAll('.nav-item.dropdown').forEach(item => {
             item.addEventListener('click', () => {
-                const dropdownContent = item.querySelector('.dropdown-content ');
+                const dropdownContent = item.querySelector('.dropdown-content  ');
                 const isVisible = dropdownContent.style.display === 'block';
                 document.querySelectorAll('.dropdown-content').forEach(content => content.style.display = 'none');
-                dropdownContent.style.display = isVisible ? 'none' : 'block';
+                dropdownContent.style.display = isVisible ? 'none' : 'block' ;
             });
         });
     </script>
