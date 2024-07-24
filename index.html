@@ -104,7 +104,7 @@
     <script>
         document.querySelectorAll('.nav-item.dropdown').forEach(item => {
             item.addEventListener('click', () => {
-                const dropdownContent = item.querySelector('.dropdown-content');
+                const dropdownContent = item.querySelector('.dropdown-content ');
                 const isVisible = dropdownContent.style.display === 'block';
                 document.querySelectorAll('.dropdown-content').forEach(content => content.style.display = 'none');
                 dropdownContent.style.display = isVisible ? 'none' : 'block';
