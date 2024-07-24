@@ -9,7 +9,7 @@ body {
     background-color: #081b29;
     color: white;
     animation: fadeIn 1s ease-in;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden; 
 }
 
 .header {
@@ -82,7 +82,7 @@ body {
     left: 15px;
     display: flex;
     align-items: center;
-    height: calc(100vh - 60px); /* Adjusted height */
+    height: calc(100vh - 60px); 
     padding: 10px;
 }
 
@@ -236,7 +236,7 @@ body {
 }
 
 .projects {
-    padding: 20px 10%; /* Adjusted padding */
+    padding: 20px 10%; 
 }
 
 .projects h2 {
@@ -273,7 +273,6 @@ body {
 .pro {
     position: relative;
     left: 40%;
-    /* position: absolute; */
     top: 102%;
     margin-bottom: 10px;
 }
